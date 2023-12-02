@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            width: 100%;
+            height: 100px;
+            background-color: #3c5a9b;
+            color: aliceblue;
+        }
+
+        .item1 {
+            width: 50%;
+            height: 100px;
+            float: left;
+        }
+
+        .item2 {
+            width: 50%;
+            height: 100px;
+            float: left;
+        }
+
+        h1 {
+            color: #ffff;
+            /* margin-left: 100px;  */
+        }
+
+        .subdiv1 {
+            width: 33.33%;
+            height: 100px;
+            float: left
+        }
+
+        .subdiv2 {
+            width: 33.33%;
+            height: 100px;
+            float: left
+        }
+
+        .subdiv3 {
+            width: 33.33%;
+            height: 100px;
+            float: left
+        }
+
+        .login {
+            background-color: #3c5a9b;
+            border: 1px solid gray;
+            color: aliceblue;
+        }
+
+        .section1 {
+            width: 100%;
+            height: 90vh;
+            background-color: rgb(118, 144, 192);
+        }
+
+        .subsec1 {
+            width: 50%;
+            height: 90vh;
+            float: left;
+        }
+
+        .facebookHeading {
+            color: #2d416e;
+        }
+
+        .subsec1 {
+            width: 50%;
+            height: 90vh;
+            float: left;
+        }
+
+        .subsec2 {
+            width: 50%;
+            height: 90vh;
+            float: left;
+
+        }
+
+        h2 {
+            max-width: 400px;
+            text-align: center;
+            margin: auto;
+            position: relative;
+        }
+
+        h2:before {
+            content: "";
+            width: 180px;
+            height: 1px;
+            display: block;
+            background-color: white;
+            position: absolute;
+            top: 50%;
+            left: 0;
+        }
+
+        h2:after {
+            content: "";
+            width: 180px;
+            height: 1px;
+            display: block;
+            background-color: white;
+            position: absolute;
+            top: 50%;
+            right: 0;
+        }
+        h6.{
+            background-color: #3c5a9b;
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="item1">
+
+            <h1>
+                <pre>      Facebook</pre>
+            </h1>
+        </div>
+        <div class="item2">
+            <div class="subdiv1">
+                <br>
+                <label for="Name">Name</label>
+                <input type="text" id="Name">
+            </div>
+
+            <div class="subdiv2">
+                <br>
+                <label for="Name">Password</label>
+                <input type="text" id="Name"><br><br>
+                <button class="">Forget Password</button>
+            </div>
+
+            <div class="subdiv3">
+                <br>
+                <br>
+                <button class="login"> Login</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section1">
+        <div class="subsec1">
+            <centre>
+                <h1 class="Facebookheading">Facebook help you connect and share with the people in your life.</h1>
+            </centre>
+            <img src="./faceimage.png" width="600px">
+        </div>
+
+        <div class="subsec2">
+            <br><br>
+            <h1 style="color: black;">Sign In</h1>
+            <h3> Its free and any One can be Join</h3>
+
+            <form>
+                <fieldset style="width: 400px;">
+
+                    <label>Name</label>
+                    <input type="text" value="" placeholder="enter your name"><br><br>
+                    <label>Password</label>
+                    <input type="text" value="" placeholder="entre your Password"><br><br>
+                    <label>email</label>
+                    <input type="text" value="" placeholder="enter your email"><br><br>
+                    <label for="DOB">DOB:</label>
+                    <input type="date" id="date" value="" placeholder="entre your DOB" required><br><br>
+                    <lable for="gender"> Select Gender :</lable>
+                    <label for="female">male</label><input id="female" type="radio" name="gender">
+                    <label for="male"> Female</label><input id="male" type="radio" name="gender"><br><br>
+                    <center><button style="background-color: green; font-size: 20px; height: 40px;;">sign up</button>
+                    </center>
+                    <h2>or</h2>
+                    <button> Create New Account</button><br><br>
+
+                    Create a Page for a celebrity,band or business
+                </fieldset>
+                      
+            </form>
+          
+            
+        </div>
+        
+    </div>
+<div style="background-color: #3c5a9b; color: aliceblue; font-size: 20px;">
+    <center>हिन्दी
+        ਪੰਜਾਬੀ
+        اردو
+        ગુજરાતી
+        मराठी
+        বাংলা
+        தமிழ்
+        తెలుగు
+        മലയാളം
+        ಕನ್ನಡ
+        English (UK)
+    </center>
+</div>
+
+</body>
+
+</html>
